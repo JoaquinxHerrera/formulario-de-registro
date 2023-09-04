@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;400;700&family=Roboto:wght@100;300;400;700&display=swap');
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+
+#form{
+    background-color: #ccc;
+    width: 10%;
+    padding: 1em;
+    border-radius: 5px;
+    margin: 2em auto;
+}
+.form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+   background-color: #316e33;
+  }
+  
+  .errorMessage {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
